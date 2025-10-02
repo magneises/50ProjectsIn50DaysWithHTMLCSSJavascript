@@ -1,0 +1,47 @@
+
+/* Google Font Awesome  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: steelblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.empty {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border: solid 3px black;
+    background: white;
+}
+
+.fill {
+    background-image: url('./two\ dogs.avif');
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+}
+
+.hold {
+    border: solid 5px #ccc;
+}
+
+
+@media (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+    
+}
